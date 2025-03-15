@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>BAC Youth Global</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar-brand">
+          <a href="#">
+            <img
+              src="./img/bac-global.png"
+              alt="Logo"
+            />
+          </a>
+        </div>
+        <div
+          class="menu-toggle"
+          id="menu-toggle"
+        >
+          <!-- <span class="icon">&#9776;</span>  -->
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul
+          class="navbar-nav"
+          id="navbar-nav"
+        >
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#about-us">About us</a></li>
+          <li class="nav-item"><a href="#what-we-do">Our services</a></li>
+          <li class="nav-item"><a href="#our-team">Our team</a></li>
+          <li class="nav-item"><a href="#footer">Contact us</a></li>
+          <li
+            class="nav-item"
+            id="close-menu"
+            style="display: none"
+          >
+            <a
+              href="javascript:void(0);"
+              onclick="toggleMenu()"
+              >&#10006;</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-caption">
+        <h1>BAC YOUTH GLOBAL</h1>
+        <h3 class="hero-description">
+          Brightness And Companionship Youth Global
+        </h3>
+        <a
+          href="#"
+          class="donate-button"
+          >Donate</a
+        >
+        <!-- Button added here -->
+      </div>
+    </section>
+
+    <section
+      class="section"
+      id="about-us"
+    >
+      <!-- <h2 class="section-title">Who We Are</h2> -->
+      <div class="about-wrapper">
+        <div class="about-image">
+          <img
+            src="./img/team.jpg"
+            alt="About Us Image"
+          />
+        </div>
+        <div class="about-content">
+          <h3 class="about-heading">Who We Are</h3>
+          <p class="about-description">
+            We are a non-profit organization that operates in East Africa,
+            focusing on Burundi. Founded on February 1, 2014, by Evangelist Dr.
+            Ally Mfaume Miburo, along with:
+          </p>
+          <p class="about-description">
+            <strong>William Pablo Babu</strong>,
+            <strong>Justin Niyonkuru</strong>,
+            <strong>Kizungu Rugamba Fabien</strong>,
+            <strong>Lionceau Birikunzira</strong>,
+            <strong>Saidi Niyonkuru</strong>,
+            <strong>Samson Bigirimana</strong>
+          </p>
+          <p class="about-description">
+            We serve as a center for international dialogue about the
+            Sustainable Development Goals (SDGs) and provide training in:
+          </p>
+          <p class="about-description">
+            <strong>Entrepreneurship</strong>, <strong>Leadership</strong>,
+            <strong>Awareness</strong>
+          </p>
+          <p class="about-description">
+            BAC Youth Global strives to empower youth and underserved
+            communities in the region, fostering creativity and innovation.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="section"
+      id="what-we-do"
+    >
+      <h2 class="section-title">What We Do</h2>
+      <div class="service-container">
+        <div class="service-card">
+          <div class="service-image">
+            <img
+              src="./img/prof.jpg"
+              alt="Professional Training"
+            />
+          </div>
+          <h3>Professional Training</h3>
+          <p>
+            BAC Youth Global offers professional training programs to equip
+            youth with essential skills for personal and professional growth.
+          </p>
+          <a
+            href="learning.html"
+            class="learn-more"
+            >Learn More</a
+          >
+        </div>
+
+        <div class="service-card">
+          <div class="service-image">
+            <img
+              src="./img/lead.jpg"
+              alt="Leadership Skills"
+            />
+          </div>
+          <h3>Leadership Skills</h3>
+          <p>
+            We provide training in leadership skills to empower youth to become
+            effective leaders in their communities.
+          </p>
+          <a
+            href="leadership.html"
+            class="learn-more"
+            >Learn More</a
+          >
+        </div>
+
+        <div class="service-card">
+          <div class="service-image">
+            <img
+              src="./img/business.jpg"
+              alt="Entrepreneurship"
+            />
+          </div>
+          <h3>Entrepreneurship Concepts</h3>
+          <p>
+            Our entrepreneurship programs help youth develop business ideas and
+            understand how to launch and manage their own businesses.
+          </p>
+          <a
+            href="entrep.html"
+            class="learn-more"
+            >Learn More</a
+          >
+        </div>
+
+        <div class="service-card">
+          <div class="service-image">
+            <img
+              src="./img/brain.jpg"
+              alt="Life Coaching"
+            />
+          </div>
+          <h3>Life Coaching</h3>
+          <p>
+            We offer life coaching services to guide youth in personal
+            development and achieving their life goals.
+          </p>
+          <a
+            href="life.html"
+            class="learn-more"
+            >Learn More</a
+          >
+        </div>
+
+        <div class="service-card">
+          <div class="service-image">
+            <img
+              src="./img/dev.jpg"
+              alt="Community Development"
+            />
+          </div>
+          <h3>Community Development</h3>
+          <p>
+            BAC Youth Global organizes community development initiatives that
+            address social issues and promote positive change.
+          </p>
+          <a
+            href="commun.html"
+            class="learn-more"
+            >Learn More</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="mission-vision"
+      id="mission-vision"
+    >
+      <h2 class="section-title">Our Mission, Vision, and Values</h2>
+      <div class="mission-vision-container">
+        <div class="mission-vision-item">
+          <img
+            src="./img/missionv.png"
+            alt="Mission Icon"
+            class="icon"
+          />
+          <h3>Our Mission</h3>
+          <p>
+            Disseminating seeds of bright, creative and innovative thinking.
+          </p>
+        </div>
+
+        <div class="mission-vision-item">
+          <img
+            src="./img/binocular.png"
+            alt="Vision Icon"
+            class="icon"
+          />
+          <h3>Our Vision</h3>
+          <p>
+            Becoming Youth of splendid experiences by enhancing personal and
+            professional growth.
+          </p>
+        </div>
+
+        <div class="mission-vision-item">
+          <img
+            src="./img/diamond.png"
+            alt="Values Icon"
+            class="icon"
+          />
+          <h3>Our Values</h3>
+          <p>Embody our core values of integrity and readiness.</p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="our-team"
+      id="our-team"
+    >
+      <h2 class="section-title">Meet The Team</h2>
+      <div class="team-container">
+        <div class="team-member">
+          <div class="team-member-image">
+            <img
+              src="./img/ally.jpg"
+              alt="MIBURO Ally Mfaume"
+            />
+          </div>
+          <h3 class="team-member-name">Evangelist Dr. Ally Mfaume MIBURO</h3>
+          <p class="team-member-title">Founder and CEO</p>
+        </div>
+
+        <div class="team-member">
+          <div class="team-member-image">
+            <img
+              src="./img/Pablo.jpg"
+              alt="KIZUNGU RUGAMBA Fabien"
+            />
+          </div>
+          <h3 class="team-member-name">William Pablo Babu</h3>
+          <p class="team-member-title">Co-founder and the patron</p>
+        </div>
+
+        <div class="team-member">
+          <div class="team-member-image">
+            <img
+              src="./img/justin.jpg"
+              alt="NIYONKURU Justin"
+            />
+          </div>
+          <h3 class="team-member-name">Justin NIYONKURU</h3>
+          <p class="team-member-title">Co-founder</p>
+        </div>
+        <div class="team-member">
+          <div class="team-member-image">
+            <img
+              src="./img/jammy.jpg"
+              alt="KIZUNGU RUGAMBA Fabien"
+            />
+          </div>
+          <h3 class="team-member-name">KIZUNGU RUGAMBA Fabien</h3>
+          <p class="team-member-title">Co-founder</p>
+        </div>
+
+        <div class="team-member">
+          <div class="team-member-image">
+            <img
+              src="./img/lon.jpg"
+              alt="KIZUNGU RUGAMBA Fabien"
+            />
+          </div>
+          <h3 class="team-member-name">Lionceau BIRIKUNZIRA</h3>
+          <p class="team-member-title">Co-founder</p>
+        </div>
+        <div class="team-member">
+          <div class="team-member-image">
+            <img
+              src="./img/sami.jpg"
+              alt="KIZUNGU RUGAMBA Fabien"
+            />
+          </div>
+          <h3 class="team-member-name">Samson BIGIRIMANA</h3>
+          <p class="team-member-title">Co-founder</p>
+        </div>
+        <div class="team-member">
+          <div class="team-member-image">
+            <img
+              src="./img/zeal.jpg"
+              alt="KIZUNGU RUGAMBA Fabien"
+            />
+          </div>
+          <h3 class="team-member-name">Saidi NIYONKURU</h3>
+          <p class="team-member-title">Co-founder</p>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="footer"
+      id="footer"
+    >
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img
+            src="./img/bac-global.png"
+            alt="Logo"
+          />
+        </div>
+        <div class="footer-section about-us">
+          <h3>Our links</h3>
+          <ul>
+            <!-- <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li> -->
+            <li><a href="#">Home</a></li>
+            <li><a href="#about-us">About us</a></li>
+            <li><a href="#what-we-do">Our services</a></li>
+            <li><a href="#our-team">Our team</a></li>
+            <li><a href="#footer">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="footer-section support">
+          <h3>Contact us</h3>
+          <ul>
+            <li>
+              <a href="#"><i class="fas fa-phone"></i> +971 58 304 4134 </a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-phone"></i> +257 68 68 68 11</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-phone"></i> +257 65 56 23 44</a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fas fa-envelope"></i> bcompanioship@gmail.com</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section social">
+          <h3>Social</h3>
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-content-qaury">
+        <div class="footer-section">
+          <div class="footer-icon">
+            <i class="fas fa-phone-alt"></i>
+          </div>
+          <h3 class="footer-title">LET'S TALK</h3>
+          <p class="footer-description">++971 58 304 4134</p>
+          <p class="footer-description">+257 68 68 68 11</p>
+          <p class="footer-description">+257 65 56 23 44</p>
+        </div>
+        <div class="footer-section">
+          <div class="footer-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <h3 class="footer-title">E-MAIL US</h3>
+          <p class="footer-description">bcompanioship@gmail.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025, BAC YOUTH GLOBAL. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navbarNav = document.getElementById('navbar-nav');
+
+    menuToggle.addEventListener('click', () => {
+      navbarNav.classList.toggle('active');
+    });
+  </script>
+</html>
